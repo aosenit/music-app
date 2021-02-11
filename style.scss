@@ -106,7 +106,8 @@ body{
             border-radius: 50%;
             top: 0;
             left: 0;
-           object-position: center;
+           object-position: center center;
+           transition: ease 0.5s all;
 
         }
 
@@ -121,4 +122,8 @@ body{
             color:  rgb(162, 151, 211);
             font-weight: bolder;
             font-size: 1.2em;
+        }
+
+        .zoom{
+            transform: scale(1.2);
         }

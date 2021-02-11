@@ -139,8 +139,10 @@ body {
   border-radius: 50%;
   top: 0;
   left: 0;
-  -o-object-position: center;
-     object-position: center;
+  -o-object-position: center center;
+     object-position: center center;
+  -webkit-transition: ease 0.5s all;
+  transition: ease 0.5s all;
 }
 
 .text {
@@ -151,5 +153,10 @@ body {
   color: #a297d3;
   font-weight: bolder;
   font-size: 1.2em;
+}
+
+.zoom {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 /*# sourceMappingURL=style.css.map */
