@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    height: 550px;
+    width: 300px;
+    background-color: rgb(97, 95, 95);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+   padding:  2em;
+   border-radius: 20px;
+}
+
+.header{
+    height: 5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+        flex: 1;
+        font-size: 3em;
+        padding-top: 2em;
+        text-align: center;
+        color: rgb(162, 151, 211);
+        margin-left: -2em;
+    }
+}
+
+.controller{
+    width: 15em;
+    height: 5.5em;
+    overflow: hidden;
+
+    button{
+        height: 45%;
+        width: 3.5em;
+        padding: 0;
+        margin: 0;
+       background-color:  rgb(162, 151, 211);
+       border: none;
+       font-weight: 900;
+       color: white;
+       transition: 0.5s ease all;
+       overflow: hidden;
+       font-size: 13px;
+       
+    }
+
+    button:hover {
+        background-color: #3A3939;
+    }
+
+    .play{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: none;
+        font-size: 18px;
+    }
+}
+
+.main-area{
+    background-color: rgb(58, 57, 57);
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+
+
+    .image-container{
+        background-color: whitesmoke;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: relative;
+        border: none;
+        margin-top: 2em;
+        overflow: hidden;
+
+        img{
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            top: 0;
+            left: 0;
+           object-position: center;
+
+        }
+
+       
+    }
+} 
+.text{
+            height: 6em;
+            width: 70%;
+            text-align: center;
+            line-height: 2em;
+            color:  rgb(162, 151, 211);
+            font-weight: bolder;
+            font-size: 1.2em;
+        }
