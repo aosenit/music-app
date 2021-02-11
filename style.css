@@ -86,7 +86,6 @@ body {
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
   overflow: hidden;
-  font-size: 13px;
 }
 
 .controller button:hover {
@@ -98,7 +97,6 @@ body {
   width: 50px;
   border-radius: 50%;
   border: none;
-  font-size: 18px;
 }
 
 .main-area {

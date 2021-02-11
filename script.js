@@ -40,13 +40,13 @@ const fixSong = () => {
 fixSong();
 
 const handlePlay = () => {
-    if(playPause.innerHTML === `<i class='bx bx-play-circle'></i>`){
-        playPause.innerHTML = `<i class='bx bx-pause-circle'></i>'`
+    if(playPause.innerHTML === '='){
+        playPause.innerHTML = '+' 
         audio.pause()
     }
 
-    else if(playPause.innerHTML === `<i class='bx bx-pause-circle'></i>`){
-        playPause.innerHTML = `<i class='bx bx-play-circle'></i>` 
+    else if(playPause.innerHTML === '+'){
+        playPause.innerHTML = '=' 
         audio.play()
     }
 }
